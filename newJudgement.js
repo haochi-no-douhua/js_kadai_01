@@ -6,7 +6,7 @@ function get_achievement(points) {
   for (let i = 0; i < number; i++) {
         sum += points[i];}
 
-  let rate = sum / (100 * number;
+  let rate = sum / (100 * number);
 
   if (rate >= 0.8) {
     return "A";
